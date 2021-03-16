@@ -1,0 +1,83 @@
+body{
+  text-align: center;
+  margin: 0;
+}
+h1{color:#0f3057;
+font-family: 'Sacramento', cursive;
+font-size: 50px;
+position: relative;
+top: 20px;
+}
+p{color:#0f3057;}
+.top-cloud{
+    background: -webkit-gradient( linear, left top, left bottom, color-stop(0.05, #36c9e3), color-stop(1, #49CFE6) );
+  height: 100px;
+  width: 150px;
+  position: absolute;
+  right:150px;
+}
+.mountain{
+  height: 250px;
+  width:600px;
+}
+.bottom-cloud{
+  background-color:#e4fbff;
+  height: 100px;
+  width: 150px;
+  position: absolute;
+  left: 100px;
+  background: -webkit-gradient( linear, left top, left bottom, color-stop(0.05,#55D2E8 ), color-stop(1,#70DAEC ) );
+}
+hr{ border-top: 3px dotted gray;
+width: 10%;}
+.top{
+  background-color: #e4fbff;
+  background: -webkit-gradient( linear, left top, left bottom, color-stop(0.05, #36c9e3), color-stop(1, #e4fbff) );
+    width: 100%;
+    height:100vh;
+  margin-top:  -40px;}
+.bottom{
+  background-color: white;
+}
+.paint{
+  height: 70px;
+  width: 70px;
+}
+h2{
+  color: #40514e;
+}
+h3{
+  color: #40514e;
+}
+.intro{
+  height: 50px;
+  width: 50px;
+  position: relative;
+  right: 550px;
+  background-color: #fdffbc;
+  border-radius: 50%;
+}
+.taskbar{background-color: #36c9e3;
+  margin-right: 0;
+  width: 100%
+}
+.top1{
+  display:inline-block;
+  position: absolute;
+  right: 200px;
+  font-size: 20px;
+
+
+
+}
+.top2{
+  display:inline-block;
+  position: absolute;
+  right: 150px;
+  font-size: 20px
+}
+.top3{
+  display:inline-block;
+  position: absolute;
+  right: 100px;
+  font-size: 20px}
